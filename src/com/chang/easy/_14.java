@@ -7,6 +7,7 @@ public class _14 {
 
     public String longestCommonPrefix(String[] strs) {
         String s="";
+
         StringBuilder  a =  new StringBuilder(s);  //初始化一个空的StringBulider
         int minlen = 201;    //题目告诉我们最大为200的每个字符串。
         for(String str : strs){   //得到最小字符串的长度
